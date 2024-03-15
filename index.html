@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search-box">
+        <input type="text" placeholder="Enter the city name" />
+        <button class="bx bx-search"></button>
+      </div>
+      <div class="weather-box">
+        <img src="assets/snow.png" class="weather-icon" />
+        <h2 class="temp">50℉</h2>
+        <h3 class="city">Odenton</h3>
+        <div class="description">
+          <div class="col">
+            <img src="assets/windy.png" />
+            <p class="wind">7mph</p>
+            <p>Windy</p>
+          </div>
+          <div class="col">
+            <img src="assets/humid.png" />
+            <p class="humid">40%</p>
+            <p>Humidty</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
