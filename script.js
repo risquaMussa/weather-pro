@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const windSpeedKph = data.wind.speed;
         const windSpeedMph = windSpeedKph * 0.621371;
         windSpeed.textContent = `${data.wind.speed.toFixed(2)} mph`;
+        
         humidity.textContent = `${data.main.humidity}%`;
         const iconCode = data.weather[0].icon;
         weatherIcon.src = `http://openweathermap.org/img/wn/${iconCode}.png`;
